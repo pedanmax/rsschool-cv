@@ -46,3 +46,6 @@ I haven't experienced because I started my study 5 months ago
 # Education #
 I have a pedagogical education. And now i finished cours of layout from Evgeniy Adrinkanich. 
 Yesterday I started course in RS School.
+
+# English #
+I have a pre-intermediate level of english. I studied english in school and now i restored my lessons with teacher. Because I want to improve my level of english

@@ -95,8 +95,14 @@ body {
     max-width: 600px;
     margin: 0 auto;
 }
+.title{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 15px;
+}
 .profile {
-    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgb(209, 209, 209);
 }
 .profile__text {
     color: #000;
@@ -105,9 +111,7 @@ body {
     align-items: flex-start;
 }
 .profile__title {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 15px;
+    
     
 }
 .profile__item {
@@ -140,6 +144,33 @@ body {
     transition: all 0.3s ease;
 }
 .profile__link:hover{
+    color: rgba(0, 0, 0, 0.8);
+}
+.contacts {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(209, 209, 209);
+    display: flex;
+    gap: 95px;
+}
+.contacts__title {
+}
+
+.contacts__list {
+}
+.contacts__item {
+    font-size: 11px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    
+}
+.contacts__link {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 11px;
+    transition: all 0.3s ease;
+    padding-left: 30px;
+}
+.contacts__link:hover{
     color: rgba(0, 0, 0, 0.8);
 }
 .footer {

@@ -1,1 +1,1 @@
-# rsschool-cv
+https://pedanmax.github.io/rsschool-cv/

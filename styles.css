@@ -285,5 +285,20 @@ body {
 .exp__link:hover{
     color:rgba(0, 0, 0, 0.8);
 }
+.eng {
+    display: flex;
+    align-items: flex-start;
+    padding:30px 0;
+    gap: 40px;
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+.eng__title {
+    min-width: 120px;
+}
+
+.eng__paragraph {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+}
 .footer {
 }

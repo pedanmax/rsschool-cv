@@ -258,5 +258,32 @@ body {
     font-size: 11px;
     max-width: 300px;
 }
+.exp {
+    display: flex;
+    padding: 30px 0;
+    gap: 40px;
+    align-items: flex-start;
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+.exp__title {
+    min-width: 120px;
+}
+
+.exp__paragraph {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.exp__link {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+    transition: all 0.3s ease;
+}
+.exp__link:not(:last-child){
+    margin-bottom: 10px;
+}
+.exp__link:hover{
+    color:rgba(0, 0, 0, 0.8);
+}
 .footer {
 }

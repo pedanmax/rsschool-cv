@@ -43,9 +43,7 @@ body {
     display: flex;
     flex-direction: column;
 }
-.header {
-    
-}
+
 .header__container{
     background: url(img/bg.png) 0 0 / 100% no-repeat;
     background-color: #fff;
@@ -114,13 +112,6 @@ body {
     justify-content: space-between;
     align-items: flex-start;
 }
-.profile__title {
-    
-    
-}
-.profile__item {
-    
-}
 .profile__top {
     display: flex;
     gap: 30px;
@@ -157,11 +148,7 @@ body {
     display: flex;
     gap: 95px;
 }
-.contacts__title {
-}
 
-.contacts__list {
-}
 .contacts__item {
     font-size: 11px;
     font-weight: 500;
@@ -327,6 +314,4 @@ body {
 }
 .footer__logo {
     width: 100%;
-}
-.footer {
 }

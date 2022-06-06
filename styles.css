@@ -206,5 +206,39 @@ body {
     color: rgba(0, 0, 0, 0.5);
     font-size: 12px;
 }
+.skills {
+    display: flex;
+    align-items: flex-start;
+    gap: 60px;
+    padding: 30px 0;
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+.skills__title {
+    min-width: 100px;
+}
+.skills__list {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.skills__item:not(:last-child){
+    margin-bottom: 10px;
+}
+.skills__item {
+    flex: 0 0 45%;
+    position: relative;
+    padding-left: 10px;
+}
+.skills__item::before{
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #000;
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
 .footer {
 }

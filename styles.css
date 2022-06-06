@@ -40,14 +40,15 @@ body {
 .wrapper {
     overflow: hidden;
     box-sizing: border-box;
-    
     display: flex;
     flex-direction: column;
 }
 .header {
+    
 }
 .header__container{
     background: url(img/bg.png) 0 0 / 100% no-repeat;
+    background-color: #fff;
     max-width: 600px;
     margin: 0 auto;
     padding: 40px;
@@ -90,10 +91,13 @@ body {
 }   
 .main{
     flex: 1 1 auto;
+    
 }
 .main__container{
     max-width: 600px;
     margin: 0 auto;
+    background-color: #fff;
+    padding:0 40px;
 }
 .title{
     font-weight: 700;
@@ -172,6 +176,35 @@ body {
 }
 .contacts__link:hover{
     color: rgba(0, 0, 0, 0.8);
+}
+.about{
+    display: flex;
+    align-items: flex-start;
+    gap: 60px;
+    padding: 30px 0;
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+.about__title{
+    min-width: 100px;
+}
+.about__paragraph{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+}
+.eduation {
+    display: flex;
+    align-items: flex-start;
+    gap: 60px;
+    padding: 30px 0;
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+.education__title {
+    min-width: 100px;
+}
+
+.education__paragraph {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
 }
 .footer {
 }
